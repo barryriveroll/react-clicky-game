@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "name": "Fry",
+    "clicked": false,
+    "image": "./images/fry.png"
+  },
+  {
+    "id": 1,
+    "name": "Amy",
+    "clicked": false,
+    "image": "./images/amy.png"
+  },
+  {
+    "id": 2,
+    "name": "Bender",
+    "clicked": false,
+    "image": "./images/bender.png"
+  },
+  {
+    "id": 3,
+    "name": "farnsworth",
+    "clicked": false,
+    "image": "./images/farnsworth.png"
+  },
+  {
+    "id": 4,
+    "name": "hedonismbot",
+    "clicked": false,
+    "image": "./images/hedonismbot.png"
+  },
+  {
+    "id": 5,
+    "name": "hermes",
+    "clicked": false,
+    "image": "./images/hermes.png"
+  },
+  {
+    "id": 6,
+    "name": "kif",
+    "clicked": false,
+    "image": "./images/kif.png"
+  },
+  {
+    "id": 7,
+    "name": "leela",
+    "clicked": false,
+    "image": "./images/leela.png"
+  },
+  {
+    "id": 8,
+    "name": "roberto",
+    "clicked": false,
+    "image": "./images/roberto.png"
+  },
+  {
+    "id": 9,
+    "name": "scruffy",
+    "clicked": false,
+    "image": "./images/scruffy.png"
+  },
+  {
+    "id": 10,
+    "name": "zapp",
+    "clicked": false,
+    "image": "./images/zapp.png"
+  },
+  {
+    "id": 11,
+    "name": "zoidberg",
+    "clicked": false,
+    "image": "./images/zoidberg.png"
+  }
+]
