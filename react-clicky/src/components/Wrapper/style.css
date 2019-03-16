@@ -1,6 +1,6 @@
 .wrapper {
   padding-top: 50px;
-  background: #ECEFF1;
+  background: #eceff1;
   height: 100%;
   display: flex;
   flex-flow: row wrap;
@@ -8,4 +8,12 @@
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
+}
+body {
+  background: radial-gradient(
+    ellipse at center,
+    #d5e5e8 32%,
+    #d5e5e8 44%,
+    #a1e2d4 100%
+  );
 }

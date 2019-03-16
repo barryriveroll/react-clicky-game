@@ -1,19 +1,37 @@
 .card {
   background: #fff;
+  position: absolute;
   border-radius: 2px;
-  height: 166px;
+  height: 130px;
   margin: 1rem;
   position: relative;
-  width: 253px;
+  width: 200px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: left;
+  transition: all 0.05s;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 14px #99999982, 0px 4px 20px #999999c2;
 }
 
 .card > .img-container {
   height: 100%;
   overflow: hidden;
   text-align: center;
-  background: #6caddc;
+}
+
+.bg-1 {
+  background: var(--red);
+}
+.bg-2 {
+  background: var(--teal);
+}
+.bg-3 {
+  background: var(--blue);
+}
+.bg-4 {
+  background: var(--orange);
 }
 
 .card > .img-container-red {

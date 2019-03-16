@@ -1,0 +1,36 @@
+.score {
+  position: relative;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.score p {
+  font-size: 24px;
+  width: 350px;
+  margin: 0 auto;
+}
+.current-score {
+  float: left;
+}
+.high-score {
+  float: right;
+  text-align: right;
+}
+#correct,
+#incorrect {
+  font-size: 26px;
+  font-weight: 800;
+  transition: filter 0.1s;
+}
+#correct {
+  color: #55e284;
+  text-shadow: 1px 1px 3px #296e4e, -1px -1px #296e4e, -1px 1px #296e4e,
+    1px -1px #296e4e;
+  padding-left: 10px;
+}
+#incorrect {
+  color: #e25555;
+  text-shadow: 1px 1px 3px #6e2929, -1px -1px #6e2929, -1px 1px #6e2929,
+    1px -1px #6e2929;
+  padding-right: 10px;
+}

@@ -1,8 +1,30 @@
 .title {
-  width: 100%;
+  font-size: 48px;
+  font-weight: 800;
+  background: -webkit-linear-gradient(#821a15, #e73222);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #f5ed61;
+  letter-spacing: -4px;
+}
+header {
   text-align: center;
-  font-size: 3rem;
-  text-decoration: underline;
-  color: #2A77AE;
-  margin-bottom: 50px;
+  padding: 50px;
+  width: 100%;
+}
+.logo {
+  position: relative;
+  width: 360px;
+  top: 0px;
+}
+.ship {
+  position: absolute;
+  right: calc(51% - 120px);
+  top: 118px;
+  width: 220px;
+  z-index: -1;
+}
+header p {
+  font-size: 14px;
+  font-style: italic;
 }
